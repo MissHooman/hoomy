@@ -20,11 +20,11 @@
   width: 100%;
 }
 
-.colmun section {
+.column2 section {
   display: block;
   width: 11%;
-  background-color: #b3b3ff;
-  padding: 3px 0px 1px 0px;
+  background-color: #b3ffb3;
+  padding: 1px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
