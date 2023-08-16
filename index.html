@@ -13,6 +13,8 @@
 			<p><a href="https://misshooman.github.io/">main page</a></p>
 			<p>hoomy</p>
 			<p><a href="SM64/index.html">SM64</a></p>
+			<p><button class="btn default" id="showbtn">Show</button></p>
+			<p><button class="btn default" id="hidebtn">Hide</button></p>
 		</section>
 		<aside>
 			<img src="you are here.png" alt="<- You are here" style="width:155px; height:39px; padding-top:3%" id="youarehere">
@@ -20,8 +22,16 @@
 	</div>
 	<script type="text/javascript">
 		document.getElementById("youarehere").style.display = "none";
-		document.getElementById("youarehere").onclick = function() {
+		document.getElementById("hidebtn").style.display = "none";
+		document.getElementById("showbtn").onclick = function() {
             		document.getElementById("youarehere").style.display = "inline";
+			document.getElementById("hidebtn").style.display = "inline";
+			document.getElementById("showbtn").style.display = "none";
+        	}
+		document.getElementById("hidebtn").onclick = function() {
+            		document.getElementById("youarehere").style.display = "none";
+			document.getElementById("hidebtn").style.display = "none";
+			document.getElementById("showbtn").style.display = "inline";
         	}
 	</script>
 </body>
