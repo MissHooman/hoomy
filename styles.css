@@ -20,12 +20,11 @@
 }
 
 .column2 section {
-  display: inline-block;
+  display: block;
   width: 11%;
   background-color: #b3b3ff;
   padding: 3px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
-  vertical-align: middle;
 }
