@@ -6,6 +6,7 @@
 }
 
 .column section {
+  display: block;
   width: 11%;
   background-color: #ffb3b3;
   padding: 1px 0px 1px 0px;
@@ -19,7 +20,7 @@
   width: 100%;
 }
 
-.column2 section {
+.colmun section {
   display: block;
   width: 11%;
   background-color: #b3b3ff;
