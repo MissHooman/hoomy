@@ -1,0 +1,13 @@
+.column section {
+  width: 11%;
+  background-color: #ffb3b3;
+  padding: 1px 0px 1px 0px;
+  text-align: center;
+  font-family: "Brush Script MT";
+  float: left;
+}
+
+.column aside img {
+  float: left;
+  width: 100%;
+}
