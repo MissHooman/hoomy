@@ -1,4 +1,4 @@
-# Credit:
+# Credit for SM64:
 Code Borrowed from - 28klotlucas2 (https://github.com/28klotlucas2)
 -
 Code, originally, from - http://super-mario-64.surge.sh/
