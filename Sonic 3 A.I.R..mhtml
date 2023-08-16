@@ -1,0 +1,173 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://projects.sappharad.com/s3air_ios/20220910_beta/sonic3air_web.html
+Subject: Sonic 3 A.I.R.
+Date: Wed, 16 Aug 2023 16:45:43 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--djFGW1iCZbWkLWactLvXevwOo4zLY2QWEAPv1b6Diw----"
+
+
+------MultipartBoundary--djFGW1iCZbWkLWactLvXevwOo4zLY2QWEAPv1b6Diw----
+Content-Type: text/html
+Content-ID: <frame-73987C3846B6800091827F6034D6983B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://projects.sappharad.com/s3air_ios/20220910_beta/sonic3air_web.html
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-d1b7f4a3-bc0c-4ea6-bf21-85eab40201ba@mhtml.blink" /=
+>
+
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">
+<title>Sonic 3 A.I.R.</title>
+<link rel=3D"apple-touch-icon" sizes=3D"256x256" href=3D"https://projects.s=
+appharad.com/s3air_ios/20220910_beta/icon.png">
+<link rel=3D"manifest" href=3D"https://projects.sappharad.com/s3air_ios/202=
+20910_beta/manifest.json">
+
+
+
+<link rel=3D"stylesheet" href=3D"chrome-extension://iheobagjkfklnlikgihanlh=
+cddjoihkg/fonts/Metropolis.css"></head>
+<body>
+<div id=3D"startup" style=3D"display: none;"><h2>Loading...</h2></div>
+<div class=3D"spinner pageUI" id=3D"spinner" style=3D"display: none;"></div=
+>
+<div class=3D"emscripten pageUI" id=3D"status" style=3D"display: none;">All=
+ downloads complete.</div>
+<div class=3D"emscripten pageUI" style=3D"display: none;"></div>
+
+<div class=3D"restart hidden">
+	<button type=3D"button">Restart Game</button>
+	<div class=3D"extraDownloads hidden">
+		<button type=3D"button">Extra Downloads</button>=20
+	</div>
+</div>
+<div class=3D"extraDownloadsSection hidden">
+	<div style=3D"margin:1em;">On other platforms, Sonic 3 A.I.R. includes rem=
+astered music which is enabled by default.=20
+	None of the compositions have been altered, but instead the music is playe=
+d back in higher quality=20
+	than the original MegaDrive or Genesis console was capable of. On this dev=
+ice the remastered music=20
+	is not included by default and you can install it here. Installing this ma=
+y reduce the stability=20
+	of the game on devices with low memory causing stuttering or the game to n=
+o longer load at all.</div>
+	<br>
+	<button type=3D"button">Go Back</button>=20
+	<br>
+	<button type=3D"button">Install Anyway</button>
+</div>
+<div class=3D"extraDownloadsProgress hidden">
+	<!-- I could have just reused the emscripten progress stuff above, but it =
+may benefit me later to keep it separate. -->
+	<div id=3D"extraStatus">Downloading...</div>
+	<div><progress id=3D"extraProgress" max=3D"100" value=3D"0"></progress></d=
+iv>
+</div>
+<div id=3D"root" class=3D"hidden"></div>
+<div id=3D"gameView" class=3D"emscripten_border">
+	<canvas class=3D"emscripten" id=3D"canvas" tabindex=3D"-1" width=3D"1200" =
+height=3D"672" style=3D"cursor: none; width: min(100vw, 177.778vh); height:=
+ min(100vh, 56.25vw); margin-top: max(0vh, 50vh - 28.125vw);"></canvas>
+</div>
+
+
+
+</body></html>
+------MultipartBoundary--djFGW1iCZbWkLWactLvXevwOo4zLY2QWEAPv1b6Diw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d1b7f4a3-bc0c-4ea6-bf21-85eab40201ba@mhtml.blink
+
+@charset "utf-8";
+
+body { background: black; color: white; font-family: arial; margin: 0px; ov=
+erflow: hidden; user-select: none; }
+
+.emscripten { padding-right: 0px; margin-left: auto; margin-right: auto; di=
+splay: block; }
+
+div.emscripten { text-align: center; }
+
+div.emscripten_border { border: 0px none; }
+
+canvas.emscripten { border: 0px none; background-color: rgb(0, 0, 0); }
+
+.spinner { height: 30px; width: 30px; margin: 20px 0px 0px 20px; display: i=
+nline-block; vertical-align: top; animation: 0.8s linear 0s infinite normal=
+ none running rotation; border-width: 5px; border-style: solid; border-colo=
+r: rgb(120, 120, 120) rgb(235, 235, 235) rgb(235, 235, 235); border-radius:=
+ 100%; background-color: rgb(189, 215, 46); }
+
+@-webkit-keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#status { display: inline-block; vertical-align: top; margin-top: 30px; mar=
+gin-left: 20px; font-size: 1em; font-weight: 700; color: rgb(120, 120, 120)=
+; }
+
+#progress { height: 20px; width: 250px; }
+
+.hidden { display: none !important; }
+
+.file_select { text-align: center; font-size: 0.9em; }
+
+input[type=3D"file"] { display: none; }
+
+.fileSelector { display: inline-block; background: linear-gradient(0deg, rg=
+b(17, 17, 17) 0%, rgb(68, 68, 68) 100%); border: 1px solid rgb(153, 153, 15=
+3); border-radius: 5px; margin-top: 3px; padding: 5px 8px; outline: none; w=
+hite-space: nowrap; user-select: none; cursor: pointer; text-shadow: rgb(85=
+, 85, 85) 1px 1px; font-size: 32px; }
+
+.fileSelector:hover { border-color: black; }
+
+.fileSelector:active { background: linear-gradient(0deg, rgb(51, 51, 51) 0%=
+, rgb(85, 85, 85) 100%); }
+
+.restart { text-align: center; font-size: 1em; }
+
+.extraDownloads { display: inline-block; }
+
+.restart > button, .extraDownloads > button, .extraDownloadsSection > butto=
+n { display: inline-block; color: white; background: linear-gradient(0deg, =
+rgb(17, 17, 17) 0%, rgb(68, 68, 68) 100%); border: 1px solid rgb(153, 153, =
+153); border-radius: 5px; margin-top: 3px; padding: 5px 8px; outline: none;=
+ white-space: nowrap; user-select: none; cursor: pointer; text-shadow: rgb(=
+85, 85, 85) 1px 1px; font-size: 32px; }
+
+.extraDownloadsSection { text-align: center; }
+
+.extraDownloadsProgress { text-align: center; font-size: 0.9em; }
+
+#root { color: black; }
+------MultipartBoundary--djFGW1iCZbWkLWactLvXevwOo4zLY2QWEAPv1b6Diw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://iheobagjkfklnlikgihanlhcddjoihkg/fonts/Metropolis.css
+
+@charset "utf-8";
+
+@font-face { font-family: "Metropolis Regular"; font-style: normal; font-we=
+ight: normal; src: local("Metropolis Regular"), url("Metropolis-Regular.wof=
+f") format("woff"); }
+
+@font-face { font-family: "Metropolis Medium"; font-style: normal; font-wei=
+ght: normal; src: local("Metropolis Medium"), url("Metropolis-Medium.woff")=
+ format("woff"); }
+
+@font-face { font-family: "Metropolis Semi Bold"; font-style: normal; font-=
+weight: normal; src: local("Metropolis Semi Bold"), url("Metropolis-SemiBol=
+d.woff") format("woff"); }
+------MultipartBoundary--djFGW1iCZbWkLWactLvXevwOo4zLY2QWEAPv1b6Diw------
