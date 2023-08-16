@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "Comic";
+  src: url('fonts/comic.ttf') format('truetype');
+}
+
 .column section {
   width: 11%;
   background-color: #ffb3b3;
   padding: 1px 0px 1px 0px;
   text-align: center;
-  font-family: "Brush Script MT";
+  font-family: Comic;
   float: left;
 }
 
@@ -17,6 +22,6 @@
   background-color: #b3b3ff;
   padding: 1px 0px 1px 0px;
   text-align: center;
-  font-family: "Brush Script MT";
+  font-family: Comic;
   float: left;
 }
