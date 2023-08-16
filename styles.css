@@ -6,13 +6,13 @@
 }
 
 .column section {
-  display: block;
   width: 11%;
   background-color: #ffb3b3;
   padding: 1px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
+  position: relative;
 }
 
 .column aside img {
@@ -22,11 +22,12 @@
 }
 
 .column2 {
-  display: block;
+  top: 100%;
   width: 11%;
   background-color: #b3ffb3;
   padding: 1px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
+  position: absolute;
 }
