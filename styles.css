@@ -7,12 +7,13 @@
 
 .column section {
   width: 11%;
+  height: 180px;
+  position: relative;
   background-color: #ffb3b3;
   padding: 1px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
-  position: relative;
 }
 
 .column aside img {
@@ -22,14 +23,16 @@
 }
 
 .column2 {
-  top: 100%;
   width: 11%;
+  height: 50px;
+  position: absolute;
+  top: 100%;
+  left: 0;
   background-color: #b3ffb3;
   padding: 1px 0px 1px 0px;
   text-align: center;
   font-family: "Comic";
   float: left;
-  position: absolute;
 }
 
 .first{
