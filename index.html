@@ -19,7 +19,7 @@
 		</aside>
 		-->
 	</div>
-	<div class="second" id="flashgames">
+	<div class="second" id="games">
 		<div style = "position:relative; top:15px;">
 			<p><a href="SM64/index.html">SM64</a></p>
 			<p><a href="">gambes</a></p>
@@ -31,13 +31,14 @@
 	
 	<script type="text/javascript">
 		document.getElementById("hidebtn").style.display = "none";
+		document.getElementById("games").style.display = "none";
 		document.getElementById("showbtn").onclick = function() {
-            		document.getElementById("flashgames").style.display = "block";
+            		document.getElementById("games").style.display = "block";
 			document.getElementById("hidebtn").style.display = "inline";
 			document.getElementById("showbtn").style.display = "none";
         	}
 		document.getElementById("hidebtn").onclick = function() {
-            		document.getElementById("flashgames").style.display = "none";
+            		document.getElementById("games").style.display = "none";
 			document.getElementById("hidebtn").style.display = "none";
 			document.getElementById("showbtn").style.display = "inline";
         	}
