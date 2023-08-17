@@ -52,6 +52,12 @@
 }
 
 .second{
+    border:2px solid blue;
+    width:40%;
+    height:200px;
+}
+/*
+.second{
 	border:2px solid blue;
 	background-color: #b3ffb3;
 	width:100%;
@@ -61,3 +67,4 @@
 	left: 0;
 	text-align: center;
 }
+*/
