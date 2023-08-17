@@ -39,13 +39,11 @@
 	width:11%;
 	height:120px;
 	position:absolute;
-	border:1px solid red;
 	background-color: #ffb3b3;
 	text-align: center;
 	
  }
 .second{
-	border:2px solid blue;
 	background-color: #b3b3ff;
 	width:11%;
 	height:85px;
