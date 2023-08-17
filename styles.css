@@ -37,7 +37,7 @@
 
 .first{
 	width:11%;
-	height:135px;
+	height:160px;
 	position:absolute;
 	background-color: #ffb3b3;
 	text-align: center;
@@ -48,6 +48,6 @@
 	width:11%;
 	height:85px;
 	position: relative;
-	top: 150px;
+	top: 175px;
 	text-align: center;
 }
