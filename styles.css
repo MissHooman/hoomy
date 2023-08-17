@@ -36,15 +36,20 @@
 }
 
 .first{
-     width:70%;
-     height:300px;
-     position:absolute;
-     border:1px solid red;
+	width:70%;
+	height:80px;
+	position:absolute;
+	border:1px solid red;
+	background-color: #ffb3b3;
+	text-align: center;
+	
  }
 .second{
-    border:2px solid blue;
-    width:40%;
-    height:200px;
+	border:2px solid blue;
+	background-color: #b3ffb3;
+	width:40%;
+	height:50px;
 	position: relative;
-    top: 315px;
+	top: 95px;
+	text-align: center;
 }
