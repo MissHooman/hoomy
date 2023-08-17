@@ -36,8 +36,8 @@
 }
 
 .first{
-	width:70%;
-	height:100px;
+	width:11%;
+	height:120px;
 	position:absolute;
 	border:1px solid red;
 	background-color: #ffb3b3;
@@ -47,9 +47,9 @@
 .second{
 	border:2px solid blue;
 	background-color: #b3b3ff;
-	width:40%;
-	height:80px;
+	width:11%;
+	height:85px;
 	position: relative;
-	top: 115px;
+	top: 135px;
 	text-align: center;
 }
