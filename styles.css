@@ -5,6 +5,11 @@
 	src: url('fonts/comic.ttf') format('truetype');
 }
 
+body {
+ background-image: url("bg.png");
+ background-color: #ffffff;
+}
+
 .first{
 	width:11%;
 	height:125px;
@@ -13,12 +18,6 @@
 	text-align: center;
 	
  }
-
-.first aside img {
-	float: left;
-	width: 100%;
-	display:inline-block;
-}
 
 .second{
 	background-color: #b3b3ff;
