@@ -21,13 +21,13 @@ body {
  }
 
 .second{
-	background-color: #768dff;
+	background-color: #86a0ff;
 	width:11%;
 	height:150px;
 	position: relative;
 	top: 115px;
 	text-align: center;
-	border: 3px solid #86a0ff;
+	border: 3px solid #768dff;
 	border-radius: 3px
 	border-style: solid hidden hidden;
 }
