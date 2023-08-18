@@ -5,36 +5,6 @@
 	src: url('fonts/comic.ttf') format('truetype');
 }
 
-.column section {
-	width: 11%;
-	height: 180px;
-	position: relative;
-	background-color: #ffb3b3;
-	padding: 1px 0px 1px 0px;
-	text-align: center;
-	font-family: "Comic";
-	float: left;
-}
-
-.column aside img {
-	float: left;
-	width: 100%;
-	display: block;
-}
-
-.column2 {
-	width: 11%;
-	height: 50px;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background-color: #b3ffb3;
-	padding: 1px 0px 1px 0px;
-	text-align: center;
-	font-family: "Comic";
-	float: left;
-}
-
 .first{
 	width:11%;
 	height:125px;
@@ -43,6 +13,13 @@
 	text-align: center;
 	
  }
+
+.first aside img {
+	float: left;
+	width: 100%;
+	display:inline-block;
+}
+
 .second{
 	background-color: #b3b3ff;
 	width:11%;
