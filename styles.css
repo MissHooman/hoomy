@@ -16,14 +16,18 @@ body {
 	position:absolute;
 	background-color: #ffb3b3;
 	text-align: center;
-	
+	border: 3px solid #cf8da6;
+	border-radius: 3px
  }
 
 .second{
-	background-color: #b3b3ff;
+	background-color: #768dff;
 	width:11%;
 	height:125px;
 	position: relative;
 	top: 140px;
 	text-align: center;
+	border: 3px solid #86a0ff;
+	border-radius: 3px
+	border-style: solid hidden hidden;
 }
