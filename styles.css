@@ -43,11 +43,12 @@ body {
 .tooltip .tooltiptext {
 	visibility: hidden;
 	width: 120px;
-	background-color: plum;
+	background-color: white;
 	color: darkslategrey;
 	text-align: center;
 	padding: 5px 0;
 	border-radius: 6px;
+	box-shadow: 2px 2px 5px black;
  
   /* Position the tooltip text - see examples below! */
 	position: absolute;
