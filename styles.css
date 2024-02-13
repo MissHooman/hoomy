@@ -53,7 +53,7 @@ body {
   /* Position the tooltip text - see examples below! */
 	position: absolute;
 	z-index: 1;
-	left: 10px
+	left: 50px
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
