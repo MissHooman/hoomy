@@ -51,7 +51,7 @@ body {
 	box-shadow: 2px 2px 5px black;
  
   /* Position the tooltip text - see examples below! */
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	left: 10px
 }
