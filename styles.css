@@ -34,7 +34,7 @@ body {
 
 /* Tooltip container */
 .tooltip {
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	/* border-bottom: 1px dotted black;  If you want dots under the hoverable text */
 }
@@ -51,9 +51,8 @@ body {
 	box-shadow: 2px 2px 5px black;
  
   /* Position the tooltip text - see examples below! */
-	position: absolute;
+	position: relative;
 	z-index: 1;
-	left-padding: 50px
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
