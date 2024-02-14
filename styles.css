@@ -21,9 +21,10 @@ body {
  }
 
 .second{
+	display: flex;
+	flex-flow: column;
 	background-color: #86a0ff;
 	width:11%;
-	height:190px;
 	position: relative;
 	top: 115px;
 	text-align: center;
