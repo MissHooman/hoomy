@@ -11,8 +11,6 @@ body {
 }
 
 .first{
-	display: flex;
-	flex-flow: column;
 	width:11%;
 	position:absolute;
 	background-color: #ffb3b3;
