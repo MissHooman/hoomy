@@ -49,6 +49,8 @@ body {
 	padding: 5px 0;
 	border-radius: 6px;
 	box-shadow: 2px 2px 5px black;
+	animation: fadeIn 1s;
+	margin: 5px
  
   /* Position the tooltip text - see examples below! */
 	position: absolute;
