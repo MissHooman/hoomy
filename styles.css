@@ -11,8 +11,9 @@ body {
 }
 
 .first{
+	display: flex;
+	flex-flow: column;
 	width:11%;
-	height:125px;
 	position:absolute;
 	background-color: #ffb3b3;
 	text-align: center;
