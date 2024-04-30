@@ -13,6 +13,28 @@
           "items" : [
             {
               "inputs" : [
+                "l"
+              ],
+              "frame" : {
+                "x" : 0,
+                "y" : 1218,
+                "width" : 128,
+                "height" : 62
+              }
+            },
+            {
+              "inputs" : [
+                "r"
+              ],
+              "frame" : {
+                "x" : 622,
+                "y" : 1218,
+                "width" : 128,
+                "height" : 62
+              }
+            },
+            {
+              "inputs" : [
                 "start"
               ],
               "frame" : {
