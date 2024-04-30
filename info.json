@@ -1,6 +1,6 @@
 {
-  "name" : "Simple DS Pink",
-  "identifier" : "com.failyx.ds.simplepink",
+  "name" : "Start&Select Only",
+  "identifier" : "com.hoom.ds.startselectonly",
   "gameTypeIdentifier" : "com.rileytestut.delta.game.ds",
   "debug" : false,
   "representations" : {
@@ -11,81 +11,6 @@
             "resizable" : "iphone_portrait.pdf"
           },
           "items" : [
-            {
-              "inputs" : {
-                "up" : "up",
-                "down" : "down",
-                "left" : "left",
-                "right" : "right"
-              },
-              "frame" : {
-                "x" : 45,
-                "y" : 1075,
-                "width" : 238,
-                "height" : 238
-              },
-              "extendedEdges" : {
-                "top" : 17,
-                "bottom" : 17,
-                "left" : 17,
-                "right" : 17
-              }
-            },
-            {
-              "inputs" : [
-                "a"
-              ],
-              "frame" : {
-                "x" : 619,
-                "y" : 1157,
-                "width" : 86,
-                "height" : 86
-              },
-              "extendedEdges" : {
-                "top" : 0,
-                "bottom" : 0,
-                "left" : 0,
-                "right" : 19
-              }
-            },
-            {
-              "inputs" : [
-                "b"
-              ],
-              "frame" : {
-                "x" : 536,
-                "y" : 1237,
-                "height" : 86,
-                "width" : 86
-              },
-              "extendedEdges" : {
-                "top" : 0,
-                "left" : 0,
-                "right" : 0
-              }
-            },
-            {
-              "inputs" : [
-                "l"
-              ],
-              "frame" : {
-                "x" : 0,
-                "y" : 530,
-                "width" : 128,
-                "height" : 62
-              }
-            },
-            {
-              "inputs" : [
-                "r"
-              ],
-              "frame" : {
-                "x" : 622,
-                "y" : 530,
-                "width" : 128,
-                "height" : 62
-              }
-            },
             {
               "inputs" : [
                 "start"
@@ -101,17 +26,17 @@
               }
             },
             {
-              "inputs" : [
+              "inputs": [
                 "select"
               ],
-              "frame" : {
-                "x" : 312,
-                "y" : 1274,
-                "width" : 35,
-                "height" : 35
+              "frame": {
+                "x": 312,
+                "y": 1274,
+                "width": 35,
+                "height": 35
               },
-              "extendedEdges" : {
-                "bottom" : 14
+              "extendedEdges": {
+                "bottom": 14
               }
             },
             {
@@ -130,55 +55,23 @@
               }
             },
             {
-              "inputs" : [
-                "y"
-              ],
-              "frame" : {
-                "x" : 453,
-                "y" : 1157,
-                "width" : 86,
-                "height" : 86
-              },
-              "extendedEdges" : {
-                "top" : 0,
-                "bottom" : 0,
-                "right" : 0
-              }
-            },
-            {
-              "inputs" : [
-                "x"
-              ],
-              "frame" : {
-                "x" : 536,
-                "y" : 1071,
-                "width" : 86,
-                "height" : 86
-              },
-              "extendedEdges" : {
-                "bottom" : 0,
-                "left" : 0,
-                "right" : 0
-              }
-            },
-            {
               "inputs" : {
                 "x" : "touchScreenX",
                 "y" : "touchScreenY"
               },
               "frame" : {
-                "x" : 24,
-                "y" : 530,
-                "width" : 703,
-                "height" : 529
+                "x" : 0,
+                "y" : 566,
+                "width" : 750,
+                "height" : 564
               }
             }
           ],
           "gameScreenFrame" : {
-            "x" : 24,
+            "x" : 0,
             "y" : 0,
-            "width" : 703,
-            "height" : 1059
+            "width" : 750,
+            "height" : 1130
           },
           "mappingSize" : {
             "width" : 750,
