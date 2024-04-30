@@ -1,6 +1,6 @@
 {
-  "name" : "Start&Select Only",
-  "identifier" : "com.hoom.ds.startselectonly",
+  "name" : "Tomodachi Collection",
+  "identifier" : "com.hoom.ds.tomodachicollection",
   "gameTypeIdentifier" : "com.rileytestut.delta.game.ds",
   "debug" : false,
   "representations" : {
